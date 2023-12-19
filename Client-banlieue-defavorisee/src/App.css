@@ -1,0 +1,48 @@
+.iconAnimate {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.anim-delay-1 {
+  animation-delay: 100ms;
+}
+.anim-delay-2 {
+  animation-delay: 150ms;
+}
+.anim-delay-3 {
+  animation-delay: 200ms;
+}
+.anim-delay-4 {
+  animation-delay: 250ms;
+}
+.anim-delay-5 {
+  animation-delay: 300ms;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+
+}

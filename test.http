@@ -1,0 +1,6 @@
+###
+get http://localhost:8080/api/events/
+
+###
+get http://localhost:8080/api/events/?page=1&limit=2000&group_id=3&accessType_id=3
+
